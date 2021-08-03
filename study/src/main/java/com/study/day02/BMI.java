@@ -1,9 +1,8 @@
 package com.study.day02;
 
-
-//設計一個 BMI 類別物件
-//需求 : 存放 人名 身高 體重  <-- 屬性
-//     計算 BMI 值         <-- 方法        
+// 設計一個 BMI 類別物件
+// 需求 : 存放 人名 身高 體重  <-- 屬性
+//        計算 BMI 值         <-- 方法        
 public class BMI {
 	String name;   // 人名
 	double height; // 身高

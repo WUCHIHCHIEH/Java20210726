@@ -1,6 +1,5 @@
 package com.study.day04;
 
-
 public class BMI {
 	String name;
 	private double height; // private 私有的
