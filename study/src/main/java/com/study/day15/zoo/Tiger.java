@@ -6,8 +6,8 @@ public class Tiger extends Animal {
 		setLegs(4); // 設定腳數
 	}
 	
-	//覆寫
-	@Override //提醒覆寫名稱有無錯誤?
+	// 覆寫
+	@Override
 	void move() {
 		System.out.println("我會跑");
 	}
