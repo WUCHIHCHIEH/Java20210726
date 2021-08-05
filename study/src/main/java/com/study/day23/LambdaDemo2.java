@@ -30,6 +30,7 @@ public class LambdaDemo2 {
 		 public interface Function<T,R> {
 			R apply(T t);
 		 }
+
 		 public interface IntFunction<R> {
     		R apply(int value);
 		 }
@@ -47,3 +48,14 @@ public class LambdaDemo2 {
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+

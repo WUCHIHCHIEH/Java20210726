@@ -3,23 +3,16 @@ package com.study.day22;
 public class LambdaDemo2 {
 
 	public static void main(String[] args) {
-		Score score = new Score() {
-			
-			@Override
-			public boolean isPassOrFail(int score) {
-				if (score>=60) {
-					return true;
-				}
-				return false;
-			}
-		};
+		// score : 75
+		// score : 45
+		// 直接用 lambda 語法求解 ?
 		
-		System.out.println(score.isPassOrFail(75));
-		System.out.println(score.isPassOrFail(45));
+		Score score1 = (int s) -> s >= 60 ;
+		Score score2 = (int s) -> s >= 85 ;
 		
-		//Lambda
-		Score score2 = (int s) -> s >=60;
-		Score score3 = (int s) -> s >=60;
+		System.out.println(score1.isPassOrFail(75));
+		System.out.println(score2.isPassOrFail(75));
+		
 	}
 
 }
